@@ -11,14 +11,14 @@
 		03285D2B1B4A9F1A0078A1AA /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03285D2A1B4A9F1A0078A1AA /* WebSocket.swift */; };
 		03957A461C5A734C005CC1DB /* SwiftWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D71948F11B35E5670015C529 /* SwiftWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03957A471C5A7392005CC1DB /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03285D2A1B4A9F1A0078A1AA /* WebSocket.swift */; };
-		03957A4C1C5A7532005CC1DB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03957A4B1C5A7532005CC1DB /* libz.dylib */; };
-		03D1E7221B208A5C00AC49AC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D1E7211B208A5C00AC49AC /* libz.dylib */; };
 		03D70CD11BDAC5EC00D245C3 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71949011B35E6130015C529 /* SwiftWebSocket.framework */; };
 		03D70CE01BDAC63600D245C3 /* SwiftWebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D1E7031B20897100AC49AC /* SwiftWebSocket.framework */; };
 		03D70CEC1BDAC70B00D245C3 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D70CE91BDAC70100D245C3 /* Test.swift */; };
 		03D70CED1BDAC70C00D245C3 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D70CE91BDAC70100D245C3 /* Test.swift */; };
+		18DB938C26B1F5900058E281 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DB938B26B1F5810058E281 /* libz.tbd */; };
+		18DB938D26B1F59C0058E281 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DB938B26B1F5810058E281 /* libz.tbd */; };
+		18DB938F26B1F5B30058E281 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DB938E26B1F5A80058E281 /* libz.tbd */; };
 		D71948F51B35E5670015C529 /* SwiftWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D71948F11B35E5670015C529 /* SwiftWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D719491A1B35E6640015C529 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D71948FA1B35E59D0015C529 /* libz.dylib */; };
 		D719491B1B35E7510015C529 /* SwiftWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D71948F11B35E5670015C529 /* SwiftWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D734D9EC1C232E6A00437555 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D9EB1C232E6A00437555 /* Connection.m */; };
 		D78C40331C232C3800EB72AA /* Test_ObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = D78C40321C232C3800EB72AA /* Test_ObjectiveC.m */; };
@@ -54,15 +54,14 @@
 		03285D2A1B4A9F1A0078A1AA /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		03957A3C1C5A71DB005CC1DB /* SwiftWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03957A481C5A74D9005CC1DB /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
-		03957A4B1C5A7532005CC1DB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		03D1E7031B20897100AC49AC /* SwiftWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		03D1E7211B208A5C00AC49AC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		03D70CCC1BDAC5EC00D245C3 /* Test-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D70CDB1BDAC63600D245C3 /* Test-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D70CE81BDAC70100D245C3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03D70CE91BDAC70100D245C3 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		18DB938B26B1F5810058E281 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		18DB938E26B1F5A80058E281 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.5.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		D71948F11B35E5670015C529 /* SwiftWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftWebSocket.h; sourceTree = "<group>"; };
-		D71948FA1B35E59D0015C529 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
 		D71949011B35E6130015C529 /* SwiftWebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftWebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D734D9EA1C232E6A00437555 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
 		D734D9EB1C232E6A00437555 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
@@ -76,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03957A4C1C5A7532005CC1DB /* libz.dylib in Frameworks */,
+				18DB938F26B1F5B30058E281 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D1E7221B208A5C00AC49AC /* libz.dylib in Frameworks */,
+				18DB938C26B1F5900058E281 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D719491A1B35E6640015C529 /* libz.dylib in Frameworks */,
+				18DB938D26B1F59C0058E281 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,13 +125,11 @@
 		03D1E6F91B20897100AC49AC = {
 			isa = PBXGroup;
 			children = (
-				03957A4B1C5A7532005CC1DB /* libz.dylib */,
-				D71948FA1B35E59D0015C529 /* libz.dylib */,
-				03D1E7211B208A5C00AC49AC /* libz.dylib */,
 				D71948F01B35E5670015C529 /* Source */,
 				03D70CE71BDAC70100D245C3 /* Test */,
 				D78C40311C232C3800EB72AA /* Test-ObjectiveC */,
 				03D1E7041B20897100AC49AC /* Products */,
+				18DB938A26B1F5810058E281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +153,15 @@
 				03D70CE91BDAC70100D245C3 /* Test.swift */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		18DB938A26B1F5810058E281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18DB938E26B1F5A80058E281 /* libz.tbd */,
+				18DB938B26B1F5810058E281 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D71948F01B35E5670015C529 /* Source */ = {
@@ -493,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = bitcode;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -516,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BITCODE_GENERATION_MODE = bitcode;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -654,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -674,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -749,6 +759,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -777,6 +788,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

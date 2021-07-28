@@ -1654,7 +1654,12 @@ private let manager = Manager()
 open class WebSocket: NSObject {
     fileprivate var ws: InnerWebSocket
     fileprivate var id = manager.nextId()
-    fileprivate var opened: Bool
+    fileprivate var opened: Bool {
+        didSet {
+            isOpened = opened
+        }
+    }
+    private(set) public var isOpened: Bool
 
     open override var hash: Int { return id }
     open override func isEqual(_ other: Any?) -> Bool {
@@ -1682,6 +1687,7 @@ open class WebSocket: NSObject {
     public init(request: URLRequest, subProtocols : [String] = []){
         let hasURL = request.url != nil
         opened = hasURL
+        isOpened = hasURL
         ws = InnerWebSocket(request: request, subProtocols: subProtocols, stub: !hasURL)
         super.init()
         // weak/strong pattern from:
